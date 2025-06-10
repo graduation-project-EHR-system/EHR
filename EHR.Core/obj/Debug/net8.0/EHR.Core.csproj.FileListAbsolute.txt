@@ -1,0 +1,12 @@
+E:\GP\EHR\EHR.Core\bin\Debug\net8.0\EHR.Core.deps.json
+E:\GP\EHR\EHR.Core\bin\Debug\net8.0\EHR.Core.dll
+E:\GP\EHR\EHR.Core\bin\Debug\net8.0\EHR.Core.pdb
+E:\GP\EHR\EHR.Core\obj\Debug\net8.0\EHR.Core.csproj.AssemblyReference.cache
+E:\GP\EHR\EHR.Core\obj\Debug\net8.0\EHR.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\GP\EHR\EHR.Core\obj\Debug\net8.0\EHR.Core.AssemblyInfoInputs.cache
+E:\GP\EHR\EHR.Core\obj\Debug\net8.0\EHR.Core.AssemblyInfo.cs
+E:\GP\EHR\EHR.Core\obj\Debug\net8.0\EHR.Core.csproj.CoreCompileInputs.cache
+E:\GP\EHR\EHR.Core\obj\Debug\net8.0\EHR.Core.dll
+E:\GP\EHR\EHR.Core\obj\Debug\net8.0\refint\EHR.Core.dll
+E:\GP\EHR\EHR.Core\obj\Debug\net8.0\EHR.Core.pdb
+E:\GP\EHR\EHR.Core\obj\Debug\net8.0\ref\EHR.Core.dll

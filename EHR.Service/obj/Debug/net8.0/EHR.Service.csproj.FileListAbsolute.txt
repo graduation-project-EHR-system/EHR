@@ -1,0 +1,15 @@
+E:\GP\EHR\EHR.Service\bin\Debug\net8.0\EHR.Service.deps.json
+E:\GP\EHR\EHR.Service\bin\Debug\net8.0\EHR.Service.dll
+E:\GP\EHR\EHR.Service\bin\Debug\net8.0\EHR.Service.pdb
+E:\GP\EHR\EHR.Service\bin\Debug\net8.0\EHR.Core.dll
+E:\GP\EHR\EHR.Service\bin\Debug\net8.0\EHR.Core.pdb
+E:\GP\EHR\EHR.Service\obj\Debug\net8.0\EHR.Service.csproj.AssemblyReference.cache
+E:\GP\EHR\EHR.Service\obj\Debug\net8.0\EHR.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\GP\EHR\EHR.Service\obj\Debug\net8.0\EHR.Service.AssemblyInfoInputs.cache
+E:\GP\EHR\EHR.Service\obj\Debug\net8.0\EHR.Service.AssemblyInfo.cs
+E:\GP\EHR\EHR.Service\obj\Debug\net8.0\EHR.Service.csproj.CoreCompileInputs.cache
+E:\GP\EHR\EHR.Service\obj\Debug\net8.0\EHR.Serv.11E86AA9.Up2Date
+E:\GP\EHR\EHR.Service\obj\Debug\net8.0\EHR.Service.dll
+E:\GP\EHR\EHR.Service\obj\Debug\net8.0\refint\EHR.Service.dll
+E:\GP\EHR\EHR.Service\obj\Debug\net8.0\EHR.Service.pdb
+E:\GP\EHR\EHR.Service\obj\Debug\net8.0\ref\EHR.Service.dll

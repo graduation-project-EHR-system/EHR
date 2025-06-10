@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KBlMgvFBrZJXFhElGq9R8A4FTnBiHeU0iwUsk7jkFn0=",
+  "Source": "EHR",
+  "BasePath": "_content/EHR",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
