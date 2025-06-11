@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\GP\\EHR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A8244D5-67B5-4972-9D46-D48CF37B3F43}|EHR\\EHR.csproj|e:\\gp\\ehr\\ehr\\controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A8244D5-67B5-4972-9D46-D48CF37B3F43}|EHR\\EHR.csproj|solutionrelative:ehr\\controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8A8244D5-67B5-4972-9D46-D48CF37B3F43}|EHR\\EHR.csproj|e:\\gp\\ehr\\ehr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A8244D5-67B5-4972-9D46-D48CF37B3F43}|EHR\\EHR.csproj|solutionrelative:ehr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A8244D5-67B5-4972-9D46-D48CF37B3F43}|EHR\\EHR.csproj|e:\\gp\\ehr\\ehr\\controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A8244D5-67B5-4972-9D46-D48CF37B3F43}|EHR\\EHR.csproj|solutionrelative:ehr\\controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BD5160C-AC85-4C76-958E-403CF165EA1E}|EHR.Service\\EHR.Service.csproj|e:\\gp\\ehr\\ehr.service\\services\\medicalrecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,13 +94,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MedicalRecordController.cs",
               "DocumentMoniker": "E:\\GP\\EHR\\EHR\\Controllers\\MedicalRecordController.cs",
               "RelativeDocumentMoniker": "EHR\\Controllers\\MedicalRecordController.cs",
               "ToolTip": "E:\\GP\\EHR\\EHR\\Controllers\\MedicalRecordController.cs",
               "RelativeToolTip": "EHR\\Controllers\\MedicalRecordController.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAuwFMAAAAJAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAqwFMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T20:31:45.704Z",
               "EditorCaption": ""
@@ -115,8 +115,7 @@
               "RelativeToolTip": "EHR.Core\\Dtos\\PaginationRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T20:28:05.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T20:28:05.281Z"
             },
             {
               "$type": "Document",
@@ -128,8 +127,7 @@
               "RelativeToolTip": "EHR.Core\\Response\\ResponseWithAllMedicalRecordData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T20:02:49.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T20:02:49.096Z"
             },
             {
               "$type": "Document",
@@ -141,8 +139,7 @@
               "RelativeToolTip": "EHR.Core\\Response\\ResponseWithAllHospital.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T20:03:34.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T20:03:34.682Z"
             },
             {
               "$type": "Document",
@@ -154,8 +151,7 @@
               "RelativeToolTip": "EHR\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-09T19:51:00.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T19:51:00.282Z"
             },
             {
               "$type": "Document",
@@ -167,8 +163,7 @@
               "RelativeToolTip": "EHR\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-09T19:50:45.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T19:50:45.469Z"
             },
             {
               "$type": "Document",
@@ -180,8 +175,7 @@
               "RelativeToolTip": "EHR.Core\\Dtos\\PaginationHospital.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T19:32:12.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T19:32:12.168Z"
             },
             {
               "$type": "Document",
@@ -193,8 +187,7 @@
               "RelativeToolTip": "EHR.Core\\Entities\\Type.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T19:10:37.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T19:10:37.691Z"
             },
             {
               "$type": "Document",
@@ -206,8 +199,7 @@
               "RelativeToolTip": "EHR.Service\\Services\\MedicalRecordService.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAUwCIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T19:12:18.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T19:12:18.177Z"
             },
             {
               "$type": "Document",
@@ -219,8 +211,7 @@
               "RelativeToolTip": "EHR.Core\\Helper\\MappingProfile.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAQwC8AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T19:08:06.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T19:08:06.994Z"
             },
             {
               "$type": "Document",
@@ -232,8 +223,7 @@
               "RelativeToolTip": "EHR.Core\\Configurations\\HospitalConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T19:05:40.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T19:05:40.29Z"
             },
             {
               "$type": "Document",
@@ -245,8 +235,7 @@
               "RelativeToolTip": "EHR.Core\\Entities\\Hospital.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAuwAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T19:05:21.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T19:05:21.274Z"
             },
             {
               "$type": "Document",
@@ -258,8 +247,7 @@
               "RelativeToolTip": "EHR.Core\\Dtos\\HospitalDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T19:04:24.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T19:04:24.682Z"
             },
             {
               "$type": "Document",
@@ -271,8 +259,7 @@
               "RelativeToolTip": "EHR.Core\\ServicesContract\\IHospitalService.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAcwA8AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T19:01:52.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T19:01:52.408Z"
             },
             {
               "$type": "Document",
@@ -284,18 +271,17 @@
               "RelativeToolTip": "EHR.Service\\Services\\HospitalService.cs",
               "ViewState": "AQIAAHEAAAAAAAAAAAAawHgAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T19:01:21.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T19:01:21.894Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\GP\\EHR\\EHR\\Program.cs",
               "RelativeDocumentMoniker": "EHR\\Program.cs",
               "ToolTip": "E:\\GP\\EHR\\EHR\\Program.cs",
               "RelativeToolTip": "EHR\\Program.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwBcAAAAMAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCcAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T19:00:43.935Z",
               "EditorCaption": ""
@@ -310,8 +296,7 @@
               "RelativeToolTip": "EHR\\Controllers\\HospitalController.cs",
               "ViewState": "AQIAAD4AAAAAAAAAAAAgwFAAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T19:00:11.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T19:00:11.244Z"
             }
           ]
         }
