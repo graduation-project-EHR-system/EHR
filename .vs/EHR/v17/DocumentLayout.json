@@ -102,8 +102,7 @@
               "RelativeToolTip": "EHR\\Controllers\\MedicalRecordController.cs",
               "ViewState": "AQIAAEMAAAAAAAAAAAAqwFMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T20:31:45.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T20:31:45.704Z"
             },
             {
               "$type": "Document",
@@ -281,7 +280,7 @@
               "RelativeDocumentMoniker": "EHR\\Program.cs",
               "ToolTip": "E:\\GP\\EHR\\EHR\\Program.cs",
               "RelativeToolTip": "EHR\\Program.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwCcAAAASAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCcAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T19:00:43.935Z",
               "EditorCaption": ""
