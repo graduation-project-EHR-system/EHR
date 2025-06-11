@@ -2,6 +2,8 @@
 using EHR.Core.Response;
 using EHR.Core.ServicesContract;
 using MedicalRecords.Service.Api.Response;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,6 +11,9 @@ namespace EHR.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+
     public class MedicalRecordController : ControllerBase
     {
         private readonly IMedicalRecordService _medicalRecordService;

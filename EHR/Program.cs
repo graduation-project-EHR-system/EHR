@@ -3,8 +3,11 @@ using EHR.Core;
 using EHR.Core.ServicesContract;
 using EHR.Service.Services;
 using MedicalRecords.Service.Core.Helper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace EHR
 {
@@ -26,13 +29,37 @@ namespace EHR
                 opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
 
+
+            builder.Services.AddAuthentication(option =>
+            {
+                option.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                option.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+               .AddJwtBearer(o =>
+               {
+                   o.RequireHttpsMetadata = false;
+                   o.SaveToken = false;
+                   o.TokenValidationParameters = new TokenValidationParameters
+                   {
+                       ValidateAudience = true,
+                       ValidateIssuer = true,
+                       ValidateLifetime = true,
+                       ValidateIssuerSigningKey = true,
+                       ValidIssuer = builder.Configuration["JWT:ValidIssuer"],
+                       ValidAudience = builder.Configuration["JWT:ValidAudience"],
+                       IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:SecurityKey"])),
+                       ClockSkew = TimeSpan.Zero
+                   };
+               });
+
+
             builder.Services.AddScoped<IMedicalRecordService, MedicalRecordService>();
             builder.Services.AddScoped<IHospitalService, HospitalService>();
             builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 
 
-            var app = builder.Build();
-            using var scope = app.Services.CreateScope(); /// instead of using try finally to dispose the scope
+            var app2 = builder.Build();
+            using var scope = app2.Services.CreateScope(); /// instead of using try finally to dispose the scope
             var services = scope.ServiceProvider;
             var _dbcontext = services.GetRequiredService<EHRdbContext>();
             var loggerFactory = services.GetRequiredService<ILoggerFactory>();
@@ -73,6 +100,7 @@ namespace EHR
 
             app.UseCors("AllowAll");
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
 
