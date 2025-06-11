@@ -67,7 +67,6 @@ namespace EHR.Service.Services
                     Notes = m.Notes,
                     CreatedAt = m.CreatedAt,
                     PatientId = m.PatientId,
-                    CachedDoctorId = m.CachedDoctorId,
                     Medications = m.Medications.Select(med => new MedicationDto
                     {
                         Name = med.Name,
@@ -137,7 +136,6 @@ namespace EHR.Service.Services
                     Notes = m.Notes,
                     CreatedAt = m.CreatedAt,
                     PatientId = m.PatientId,
-                    CachedDoctorId = m.CachedDoctorId,
                     Medications = m.Medications.Select(med => new MedicationDto
                     {
                         Name = med.Name,
@@ -201,7 +199,6 @@ namespace EHR.Service.Services
         {
             MedicalRecord medicalRecord = await _dbContext.MedicalRecords.FindAsync(medicalRecordsDto.Id);
 
-            medicalRecord.CachedDoctorId = medicalRecordsDto.CachedDoctorId;
             medicalRecord.Diagnosis = medicalRecordsDto.Diagnosis;
             medicalRecord.Notes = medicalRecordsDto.Notes;
             medicalRecord.PatientId = medicalRecordsDto.PatientId;

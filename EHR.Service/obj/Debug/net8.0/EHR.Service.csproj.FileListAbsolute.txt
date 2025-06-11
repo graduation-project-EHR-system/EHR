@@ -13,3 +13,4 @@ E:\GP\EHR\EHR.Service\obj\Debug\net8.0\EHR.Service.dll
 E:\GP\EHR\EHR.Service\obj\Debug\net8.0\refint\EHR.Service.dll
 E:\GP\EHR\EHR.Service\obj\Debug\net8.0\EHR.Service.pdb
 E:\GP\EHR\EHR.Service\obj\Debug\net8.0\ref\EHR.Service.dll
+E:\GP\EHR\EHR.Service\obj\Debug\net8.0\EHR.Service.sourcelink.json

@@ -148,3 +148,4 @@ E:\GP\EHR\EHR\obj\Debug\net8.0\refint\EHR.dll
 E:\GP\EHR\EHR\obj\Debug\net8.0\EHR.pdb
 E:\GP\EHR\EHR\obj\Debug\net8.0\EHR.genruntimeconfig.cache
 E:\GP\EHR\EHR\obj\Debug\net8.0\ref\EHR.dll
+E:\GP\EHR\EHR\obj\Debug\net8.0\EHR.sourcelink.json

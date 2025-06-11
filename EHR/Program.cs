@@ -3,13 +3,14 @@ using EHR.Core;
 using EHR.Core.ServicesContract;
 using EHR.Service.Services;
 using MedicalRecords.Service.Core.Helper;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace EHR
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -28,6 +29,24 @@ namespace EHR
             builder.Services.AddScoped<IMedicalRecordService, MedicalRecordService>();
             builder.Services.AddScoped<IHospitalService, HospitalService>();
             builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
+
+
+            var app = builder.Build();
+            using var scope = app.Services.CreateScope(); /// instead of using try finally to dispose the scope
+            var services = scope.ServiceProvider;
+            var _dbcontext = services.GetRequiredService<EHRdbContext>();
+            var loggerFactory = services.GetRequiredService<ILoggerFactory>();
+
+            try
+            {
+                await _dbcontext.Database.MigrateAsync();
+            }
+            catch (Exception ex)
+            {
+                var logger = loggerFactory.CreateLogger<ILoggerFactory>();
+                logger.LogError(ex, "There is Error in Migration");
+            }
+
 
 
             builder.Services.AddCors(options =>

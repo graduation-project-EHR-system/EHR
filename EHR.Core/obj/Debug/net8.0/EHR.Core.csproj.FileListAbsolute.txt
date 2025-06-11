@@ -10,3 +10,4 @@ E:\GP\EHR\EHR.Core\obj\Debug\net8.0\EHR.Core.dll
 E:\GP\EHR\EHR.Core\obj\Debug\net8.0\refint\EHR.Core.dll
 E:\GP\EHR\EHR.Core\obj\Debug\net8.0\EHR.Core.pdb
 E:\GP\EHR\EHR.Core\obj\Debug\net8.0\ref\EHR.Core.dll
+E:\GP\EHR\EHR.Core\obj\Debug\net8.0\EHR.Core.sourcelink.json

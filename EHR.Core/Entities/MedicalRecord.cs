@@ -18,7 +18,6 @@ namespace EHR.Core.Entities
         public DateTime CreatedAt { get; private set; }
 
         public Guid PatientId { get; set; }
-        public Guid CachedDoctorId { get; set; }
 
         public ICollection<Medication> Medications { get; set; } = new List<Medication>();
         public ICollection<Condition> Conditions { get; set; } = new List<Condition>();
