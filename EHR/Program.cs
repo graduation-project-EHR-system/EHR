@@ -13,7 +13,7 @@ namespace EHR
 {
     public class Program
     {
-        public static async void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -29,6 +29,17 @@ namespace EHR
                 opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
 
+
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", policy =>
+                {
+                    policy.AllowAnyOrigin()
+                          .AllowAnyMethod()
+                          .AllowAnyHeader();
+                });
+            });
 
             builder.Services.AddAuthentication(option =>
             {
@@ -58,8 +69,14 @@ namespace EHR
             builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 
 
-            var app2 = builder.Build();
-            using var scope = app2.Services.CreateScope(); /// instead of using try finally to dispose the scope
+
+
+
+           
+
+
+            var app = builder.Build();
+            using var scope = app.Services.CreateScope(); /// instead of using try finally to dispose the scope
             var services = scope.ServiceProvider;
             var _dbcontext = services.GetRequiredService<EHRdbContext>();
             var loggerFactory = services.GetRequiredService<ILoggerFactory>();
@@ -73,21 +90,6 @@ namespace EHR
                 var logger = loggerFactory.CreateLogger<ILoggerFactory>();
                 logger.LogError(ex, "There is Error in Migration");
             }
-
-
-
-            builder.Services.AddCors(options =>
-            {
-                options.AddPolicy("AllowAll", policy =>
-                {
-                    policy.AllowAnyOrigin()
-                          .AllowAnyMethod()
-                          .AllowAnyHeader();
-                });
-            });
-
-
-            var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             //if (app.Environment.IsDevelopment())
