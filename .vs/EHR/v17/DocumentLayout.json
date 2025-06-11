@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{8A8244D5-67B5-4972-9D46-D48CF37B3F43}|EHR\\EHR.csproj|solutionrelative:ehr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8A8244D5-67B5-4972-9D46-D48CF37B3F43}|EHR\\EHR.csproj|e:\\gp\\ehr\\ehr\\controllers\\hospitalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A8244D5-67B5-4972-9D46-D48CF37B3F43}|EHR\\EHR.csproj|solutionrelative:ehr\\controllers\\hospitalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8A8244D5-67B5-4972-9D46-D48CF37B3F43}|EHR\\EHR.csproj|e:\\gp\\ehr\\ehr\\controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A8244D5-67B5-4972-9D46-D48CF37B3F43}|EHR\\EHR.csproj|solutionrelative:ehr\\controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{61929280-C01B-4F10-BC3E-6AC0A706853B}|EHR.Core\\EHR.Core.csproj|e:\\gp\\ehr\\ehr.core\\servicescontract\\ihospitalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61929280-C01B-4F10-BC3E-6AC0A706853B}|EHR.Core\\EHR.Core.csproj|solutionrelative:ehr.core\\servicescontract\\ihospitalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A8244D5-67B5-4972-9D46-D48CF37B3F43}|EHR\\EHR.csproj|e:\\gp\\ehr\\ehr\\controllers\\hospitalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A8244D5-67B5-4972-9D46-D48CF37B3F43}|EHR\\EHR.csproj|solutionrelative:ehr\\controllers\\hospitalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61929280-C01B-4F10-BC3E-6AC0A706853B}|EHR.Core\\EHR.Core.csproj|e:\\gp\\ehr\\ehr.core\\dtos\\hospitaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MedicalRecordController.cs",
               "DocumentMoniker": "E:\\GP\\EHR\\EHR\\Controllers\\MedicalRecordController.cs",
               "RelativeDocumentMoniker": "EHR\\Controllers\\MedicalRecordController.cs",
@@ -106,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PaginationRequest.cs",
               "DocumentMoniker": "E:\\GP\\EHR\\EHR.Core\\Dtos\\PaginationRequest.cs",
               "RelativeDocumentMoniker": "EHR.Core\\Dtos\\PaginationRequest.cs",
@@ -190,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MedicalRecordService.cs",
               "DocumentMoniker": "E:\\GP\\EHR\\EHR.Service\\Services\\MedicalRecordService.cs",
               "RelativeDocumentMoniker": "EHR.Service\\Services\\MedicalRecordService.cs",
@@ -250,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IHospitalService.cs",
               "DocumentMoniker": "E:\\GP\\EHR\\EHR.Core\\ServicesContract\\IHospitalService.cs",
               "RelativeDocumentMoniker": "EHR.Core\\ServicesContract\\IHospitalService.cs",
@@ -262,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "HospitalService.cs",
               "DocumentMoniker": "E:\\GP\\EHR\\EHR.Service\\Services\\HospitalService.cs",
               "RelativeDocumentMoniker": "EHR.Service\\Services\\HospitalService.cs",
@@ -280,22 +280,23 @@
               "RelativeDocumentMoniker": "EHR\\Program.cs",
               "ToolTip": "E:\\GP\\EHR\\EHR\\Program.cs",
               "RelativeToolTip": "EHR\\Program.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwCcAAAAQAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwDYAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T19:00:43.935Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "HospitalController.cs",
               "DocumentMoniker": "E:\\GP\\EHR\\EHR\\Controllers\\HospitalController.cs",
               "RelativeDocumentMoniker": "EHR\\Controllers\\HospitalController.cs",
               "ToolTip": "E:\\GP\\EHR\\EHR\\Controllers\\HospitalController.cs",
               "RelativeToolTip": "EHR\\Controllers\\HospitalController.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAgwFAAAABDAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAkwCgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T19:00:11.244Z"
+              "WhenOpened": "2025-06-09T19:00:11.244Z",
+              "EditorCaption": ""
             }
           ]
         }
