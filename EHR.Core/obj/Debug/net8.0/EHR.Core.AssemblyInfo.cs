@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EHR.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6c43b045c8ee6c5f230796389c49c35adb3c22a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4edc47f272b4edadec4bc6e93b75b42c4a06df7")]
 [assembly: System.Reflection.AssemblyProductAttribute("EHR.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EHR.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
